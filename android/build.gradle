@@ -22,7 +22,8 @@ rootProject.allprojects {
 apply plugin: 'com.android.library'
 
 android {
-    compileSdkVersion 30
+    compileSdkVersion 33
+    namespace "com.az.upi_india"
 
     defaultConfig {
         minSdkVersion 16
